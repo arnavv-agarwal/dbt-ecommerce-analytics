@@ -1,0 +1,26 @@
+order_id,customer_id,order_date,status,shipping_city,payment_method,discount_pct
+1,3,2024-01-05,completed,Delhi,UPI,0
+2,1,2024-01-08,completed,Mumbai,Credit Card,10
+3,7,2024-01-12,completed,Pune,Debit Card,0
+4,11,2024-01-15,completed,Bangalore,UPI,5
+5,5,2024-01-20,completed,Kochi,Net Banking,0
+6,2,2024-02-01,completed,Ahmedabad,UPI,15
+7,9,2024-02-05,completed,Chandigarh,Credit Card,0
+8,13,2024-02-10,completed,Chennai,UPI,10
+9,4,2024-02-14,completed,Hyderabad,Debit Card,0
+10,6,2024-02-20,returned,Kolkata,Credit Card,5
+11,15,2024-03-01,completed,Bhopal,UPI,0
+12,8,2024-03-08,completed,Jaipur,Net Banking,20
+13,10,2024-03-15,completed,Lucknow,UPI,0
+14,12,2024-03-22,cancelled,Bhubaneswar,Credit Card,0
+15,14,2024-04-01,completed,Thiruvananthapuram,UPI,10
+16,3,2024-04-05,completed,Delhi,Credit Card,0
+17,1,2024-04-10,completed,Mumbai,UPI,5
+18,11,2024-04-18,completed,Bangalore,Debit Card,0
+19,7,2024-05-01,completed,Pune,UPI,15
+20,5,2024-05-10,completed,Kochi,Credit Card,0
+21,9,2024-05-15,returned,Chandigarh,UPI,0
+22,13,2024-05-20,completed,Chennai,Net Banking,10
+23,2,2024-06-01,completed,Ahmedabad,UPI,0
+24,15,2024-06-08,completed,Bhopal,Credit Card,5
+25,4,2024-06-15,completed,Hyderabad,UPI,0

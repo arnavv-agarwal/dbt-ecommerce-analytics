@@ -1,0 +1,16 @@
+customer_id,first_name,last_name,email,city,state,country,segment,created_at
+1,Rahul,Sharma,rahul.sharma@email.com,Mumbai,Maharashtra,India,Premium,2023-01-15
+2,Priya,Patel,priya.patel@email.com,Ahmedabad,Gujarat,India,Standard,2023-02-20
+3,Amit,Singh,amit.singh@email.com,Delhi,Delhi,India,Premium,2023-01-10
+4,Sneha,Reddy,sneha.reddy@email.com,Hyderabad,Telangana,India,Standard,2023-03-05
+5,Vikram,Nair,vikram.nair@email.com,Kochi,Kerala,India,Premium,2023-02-14
+6,Ananya,Gupta,ananya.gupta@email.com,Kolkata,West Bengal,India,Standard,2023-04-01
+7,Rohan,Mehta,rohan.mehta@email.com,Pune,Maharashtra,India,Premium,2023-01-28
+8,Deepika,Joshi,deepika.joshi@email.com,Jaipur,Rajasthan,India,Standard,2023-05-10
+9,Karan,Malhotra,karan.malhotra@email.com,Chandigarh,Punjab,India,Premium,2023-03-22
+10,Neha,Verma,neha.verma@email.com,Lucknow,Uttar Pradesh,India,Standard,2023-06-15
+11,Arjun,Kumar,arjun.kumar@email.com,Bangalore,Karnataka,India,Premium,2023-02-08
+12,Pooja,Das,pooja.das@email.com,Bhubaneswar,Odisha,India,Standard,2023-07-20
+13,Siddharth,Iyer,siddharth.iyer@email.com,Chennai,Tamil Nadu,India,Premium,2023-04-18
+14,Kavya,Pillai,kavya.pillai@email.com,Thiruvananthapuram,Kerala,India,Standard,2023-08-05
+15,Manish,Tiwari,manish.tiwari@email.com,Bhopal,Madhya Pradesh,India,Premium,2023-05-30

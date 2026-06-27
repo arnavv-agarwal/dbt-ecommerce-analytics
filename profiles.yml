@@ -1,0 +1,12 @@
+ecommerce_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: 127.0.0.1
+      user: postgres
+      password: postgres
+      port: 5433
+      dbname: ecommerce_db
+      schema: staging
+      threads: 4

@@ -1,0 +1,63 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: 'Cleaned and renamed customer records from raw seed data'
+    columns:
+      - name: customer_id
+        description: 'Unique customer identifier'
+        tests:
+          - unique
+          - not_null
+      - name: email
+        description: 'Customer email address (lowercased)'
+        tests:
+          - unique
+          - not_null
+      - name: segment
+        description: 'Customer segment: Premium or Standard'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Premium', 'Standard']
+
+  - name: stg_products
+    description: 'Cleaned product catalog with margin calculations'
+    columns:
+      - name: product_id
+        description: 'Unique product identifier'
+        tests:
+          - unique
+          - not_null
+      - name: margin_pct
+        description: 'Gross margin percentage'
+        tests:
+          - not_null
+
+  - name: stg_orders
+    description: 'Cleaned orders with status labels'
+    columns:
+      - name: order_id
+        description: 'Unique order identifier'
+        tests:
+          - unique
+          - not_null
+      - name: status
+        description: 'Human readable order status'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Completed', 'Returned', 'Cancelled']
+
+  - name: stg_order_items
+    description: 'Order line items with totals in INR and USD'
+    columns:
+      - name: order_item_id
+        description: 'Unique order item identifier'
+        tests:
+          - unique
+          - not_null
+      - name: quantity
+        description: 'Number of units ordered'
+        tests:
+          - not_null

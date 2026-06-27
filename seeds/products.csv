@@ -1,0 +1,16 @@
+product_id,product_name,category,subcategory,price_inr,cost_inr,supplier,is_active
+1,iPhone 15 Pro,Electronics,Smartphones,134900,95000,Apple India,true
+2,Samsung Galaxy S24,Electronics,Smartphones,79999,55000,Samsung India,true
+3,Sony WH-1000XM5,Electronics,Headphones,29990,18000,Sony India,true
+4,Levi's 511 Jeans,Apparel,Bottomwear,3999,1800,Levi Strauss,true
+5,Nike Air Max 270,Footwear,Sneakers,12995,7000,Nike India,true
+6,Instant Pot Duo,Home & Kitchen,Appliances,8999,5000,Instant Brands,true
+7,The Alchemist,Books,Fiction,499,150,HarperCollins,true
+8,Yoga Mat Pro,Sports,Fitness,2499,900,Decathlon,true
+9,Boat Airdopes 141,Electronics,Earbuds,1299,600,Boat Lifestyle,true
+10,Kurkure Masala,Food & Beverages,Snacks,20,8,PepsiCo India,true
+11,Macbook Air M2,Electronics,Laptops,114900,82000,Apple India,true
+12,Adidas Ultraboost,Footwear,Sneakers,17999,9500,Adidas India,true
+13,Prestige Cooker,Home & Kitchen,Cookware,2299,1100,TTK Prestige,true
+14,Atomic Habits,Books,Self-Help,599,200,Penguin Random House,true
+15,Whey Protein 1kg,Sports,Supplements,2999,1400,MuscleBlaze,true

@@ -1,0 +1,44 @@
+version: 2
+
+models:
+  - name: mart_customer_lifetime_value
+    description: 'Customer lifetime value with tier classification and status'
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+      - name: customer_tier
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Platinum', 'Gold', 'Silver', 'Bronze']
+      - name: customer_status
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Active', 'At Risk', 'Churned']
+
+  - name: mart_product_performance
+    description: 'Product sales performance with revenue and profit metrics'
+    columns:
+      - name: product_id
+        tests:
+          - unique
+          - not_null
+
+  - name: mart_monthly_revenue
+    description: 'Monthly revenue trends with month-over-month growth'
+    columns:
+      - name: month_label
+        tests:
+          - unique
+          - not_null
+
+  - name: mart_order_summary
+    description: 'Complete order details with discounts applied'
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null

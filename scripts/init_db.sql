@@ -1,0 +1,5 @@
+CREATE SCHEMA IF NOT EXISTS raw;
+CREATE SCHEMA IF NOT EXISTS staging;
+CREATE SCHEMA IF NOT EXISTS intermediate;
+CREATE SCHEMA IF NOT EXISTS marts;
+GRANT ALL ON SCHEMA raw, staging, intermediate, marts TO dbt_user;
